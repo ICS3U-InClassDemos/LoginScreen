@@ -76,13 +76,16 @@ namespace LoginScreen
             // 
             // loginButton
             // 
+            this.loginButton.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.loginButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Lime;
+            this.loginButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.loginButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loginButton.Location = new System.Drawing.Point(199, 217);
             this.loginButton.Name = "loginButton";
             this.loginButton.Size = new System.Drawing.Size(100, 37);
             this.loginButton.TabIndex = 4;
             this.loginButton.Text = "Login";
-            this.loginButton.UseVisualStyleBackColor = true;
+            this.loginButton.UseVisualStyleBackColor = false;
             this.loginButton.Click += new System.EventHandler(this.loginButton_Click);
             // 
             // outputLabel
@@ -97,13 +100,15 @@ namespace LoginScreen
             // 
             // adminButton
             // 
+            this.adminButton.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.adminButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.adminButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.adminButton.Location = new System.Drawing.Point(199, 273);
             this.adminButton.Name = "adminButton";
             this.adminButton.Size = new System.Drawing.Size(100, 37);
             this.adminButton.TabIndex = 6;
             this.adminButton.Text = "Admin";
-            this.adminButton.UseVisualStyleBackColor = true;
+            this.adminButton.UseVisualStyleBackColor = false;
             this.adminButton.Click += new System.EventHandler(this.adminButton_Click);
             // 
             // Form1

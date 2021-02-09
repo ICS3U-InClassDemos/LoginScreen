@@ -22,6 +22,9 @@ namespace LoginScreen
 
         private void loginButton_Click(object sender, EventArgs e)
         {
+            loginButton.BackColor = Color.Red;
+            adminButton.BackColor = Color.Gray;
+
             try
             {
                 userName = usernameInput.Text;
@@ -37,6 +40,8 @@ namespace LoginScreen
 
         private void adminButton_Click(object sender, EventArgs e)
         {
+            loginButton.BackColor = Color.Gray;
+            adminButton.BackColor = Color.Red;
             outputLabel.Text = $"{pin} {userName} ";
         }
     }
