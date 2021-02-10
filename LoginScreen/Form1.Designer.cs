@@ -63,7 +63,7 @@ namespace LoginScreen
             this.usernameInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.usernameInput.Location = new System.Drawing.Point(199, 99);
             this.usernameInput.Name = "usernameInput";
-            this.usernameInput.Size = new System.Drawing.Size(100, 29);
+            this.usernameInput.Size = new System.Drawing.Size(185, 29);
             this.usernameInput.TabIndex = 2;
             // 
             // pinInput
@@ -71,7 +71,7 @@ namespace LoginScreen
             this.pinInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pinInput.Location = new System.Drawing.Point(199, 157);
             this.pinInput.Name = "pinInput";
-            this.pinInput.Size = new System.Drawing.Size(100, 29);
+            this.pinInput.Size = new System.Drawing.Size(185, 29);
             this.pinInput.TabIndex = 3;
             // 
             // loginButton

@@ -34,7 +34,8 @@ namespace LoginScreen
             }
             catch
             {
-                outputLabel.Text = "Please enter numbers only for PIN";
+                pinInput.Text = "Numbers Only";
+                pinInput.Focus();
             }
         }
 
