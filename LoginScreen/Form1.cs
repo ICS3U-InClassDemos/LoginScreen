@@ -45,5 +45,6 @@ namespace LoginScreen
             adminButton.BackColor = Color.Red;
             outputLabel.Text = $"{pin} {userName} ";
         }
+
     }
 }

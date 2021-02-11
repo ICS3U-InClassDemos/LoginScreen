@@ -65,6 +65,7 @@ namespace LoginScreen
             this.usernameInput.Name = "usernameInput";
             this.usernameInput.Size = new System.Drawing.Size(185, 29);
             this.usernameInput.TabIndex = 2;
+            this.usernameInput.Text = "0";
             // 
             // pinInput
             // 
@@ -73,6 +74,7 @@ namespace LoginScreen
             this.pinInput.Name = "pinInput";
             this.pinInput.Size = new System.Drawing.Size(185, 29);
             this.pinInput.TabIndex = 3;
+            this.pinInput.Text = "0";
             // 
             // loginButton
             // 
